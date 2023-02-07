@@ -1,0 +1,23 @@
+Gitlet Design Document
+----------------------
+I am one with the force	and the force is with me
+
+Classes and Data Structures
+---------------------------
+Init
+    - The main part if init is the initialization of the .gitlet folder. When you make the folder, you should check to
+      see if already exists, if so throw an exception error.
+    - Once you create the folder, you will want to handle three things, staging, commits, and blobs.
+        - For handling staging, I'm thinking to create two hash maps. One for adding, and one for removing
+        This will be associated with the add as when you add
+    - I also want to create a general hashmap that I can refer to that can refer IDs to the files they refer to
+
+
+
+
+Algorithms
+----------
+
+
+Persistence
+-----------
